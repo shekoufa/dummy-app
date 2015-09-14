@@ -67,7 +67,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="26" selection-start="0" selection-end="18073" vertical-scroll-proportion="0.22040074" vertical-offset="3568" max-vertical-offset="5882">
+            <state line="52" column="8" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.06557377" vertical-offset="848" max-vertical-offset="5899">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,10 +85,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="4" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.0" vertical-offset="1624" max-vertical-offset="4726">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="62" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3145">
+            <state line="55" column="40" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3145">
               <folding>
                 <marker date="1442270802895" expanded="false" signature="3724:3782" placeholder="..." />
                 <marker date="1442270802895" expanded="false" signature="3914:3933" placeholder="..." />
@@ -217,6 +226,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploader-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,12 +498,12 @@
       <workItem from="1441121598643" duration="37363000" />
       <workItem from="1441636929424" duration="2729000" />
       <workItem from="1441716739902" duration="60365000" />
-      <workItem from="1442270675095" duration="437000" />
+      <workItem from="1442270675095" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100894000" />
+    <option name="totallyTimeSpent" value="101777000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -749,7 +772,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6001" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6001">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/img/loading1.gif">
@@ -766,12 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/sweetalert.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="51" selection-start="3468" selection-end="3468" vertical-scroll-proportion="0.0" vertical-offset="2066" max-vertical-offset="15946" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="17" selection-start="6444" selection-end="6444" vertical-scroll-proportion="0.0" vertical-offset="3783" max-vertical-offset="4726">
+        <state line="134" column="51" selection-start="3468" selection-end="3468" vertical-scroll-proportion="0.0" vertical-offset="2066" max-vertical-offset="15946">
           <folding />
         </state>
       </provider>
@@ -823,22 +843,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="62" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3145">
-          <folding>
-            <marker date="1442270802895" expanded="false" signature="3724:3782" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="3914:3933" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="4075:4112" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="4307:4322" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="5939:5997" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="6129:6148" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="6290:6327" placeholder="..." />
-            <marker date="1442270802895" expanded="false" signature="6522:6537" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="1" selection-start="3018" selection-end="3018" vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="1700">
@@ -862,9 +866,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="40" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3145">
+          <folding>
+            <marker date="1442270802895" expanded="false" signature="3724:3782" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="3914:3933" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="4075:4112" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="4307:4322" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="5939:5997" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="6129:6148" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="6290:6327" placeholder="..." />
+            <marker date="1442270802895" expanded="false" signature="6522:6537" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="4" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.0" vertical-offset="1624" max-vertical-offset="4726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="26" selection-start="0" selection-end="18073" vertical-scroll-proportion="0.22040074" vertical-offset="3568" max-vertical-offset="5882">
+        <state line="52" column="8" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.06557377" vertical-offset="848" max-vertical-offset="5899">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
