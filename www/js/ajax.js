@@ -51,7 +51,6 @@ function sendAjax(type) {
                     if(type==2){
                         updateAuthCode($("#currentcode").val(),data.data.device_authentication_code);
                     }else{
-                        alert("This is data.device_auth_code: "+data.data.device_authentication_code)
                         $("#currentcode").val(data.data.device_authentication_code);
                     }
                     $("#currentuserid").val(data.data.id);

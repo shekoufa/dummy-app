@@ -2,7 +2,7 @@
  * Created by nono on 9/3/15.
  */
 
- function sendAjax(type) {
+function sendAjax(type) {
     var termsOk = true;
     if(type ==1 && $("#termsaccept").prop('checked')==false){
         termsOk = false;
@@ -51,7 +51,6 @@
                     if(type==2){
                         updateAuthCode($("#currentcode").val(),data.data.device_authentication_code);
                     }else{
-                        alert("This is data.device_auth_code: "+data.data.device_authentication_code)
                         $("#currentcode").val(data.data.device_authentication_code);
                     }
                     $("#currentuserid").val(data.data.id);
