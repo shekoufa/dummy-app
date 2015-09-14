@@ -30,19 +30,20 @@
         <link rel="stylesheet" type="text/css" href="css/sweetalert.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
-        <title>File Uploader</title>
+        <title>Upload Media to your HeyOrca Library</title>
         <script type="text/javascript">
             var db = null;
         </script>
     </head>
     <body>
+
         <div id="loading" style="display: none;">
             <img width="90" src="img/loading2.gif"/>
         </div>
         <input type="hidden" id="activepage" value="login"/>
         <input type="hidden" id="currentuserid" value=""/>
         <input type="hidden" id="currentteamid" value=""/>
-        <input type="hidden" id="currentcode" value=""/>
+        <input type="text" id="currentcode" value=""/>
         <input type="hidden" id="photouri" value=""/>
         <input type="hidden" id="videouri" value=""/>
         <input- type="hidden" id="uploadtype" value=""/>
@@ -183,7 +184,6 @@
             }
             function uploadPhoto(){
                 showLoading();
-
                 if($("#uploadtype").val()=="photo"){
                     var photoURI = $("#photouri").val();
                     var urlArray = photoURI.split("/");
@@ -211,6 +211,7 @@
                     function successPhotoFileTransfer(data){
                         hideLoading();
                         var responseStr = data.response;
+                        alert("this is response str: "+responseStr);
                         var responseJson  = JSON.parse(responseStr);
                         if(responseJson.success == true){
                             sweetAlert("Your photo was uploaded successfully.");
@@ -259,6 +260,7 @@
                     function successFileTransfer(data){
                         hideLoading();
                         var responseStr = data.response;
+                        console.log("This is the response str for video: "+responseStr);
                         var responseJson  = JSON.parse(responseStr);
                         if(responseJson.success == true){
                             sweetAlert("Your video was uploaded successfully.");

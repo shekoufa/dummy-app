@@ -184,17 +184,12 @@
             }
             function uploadPhoto(){
                 showLoading();
-                sweetAlert("The upload type is: "+$("#uploadtype").val());
                 if($("#uploadtype").val()=="photo"){
                     var photoURI = $("#photouri").val();
-                    sweetAlert("photo uri: "+photoURI);
                     var urlArray = photoURI.split("/");
                     var fullFileName = urlArray[urlArray.length-1];
-                    sweetAlert("fullFileName: "+fullFileName);
                     var fileName = fullFileName.split(".")[0];
                     var fileExtension = fullFileName.split(".")[1];
-                    sweetAlert("FileName: "+fileName);
-                    sweetAlert("FileExt: "+fileExtension);
                     var url=encodeURI("http://app.heyorca.com:8080/app/upload_as_media");
                     var options = new FileUploadOptions();
                     options.fileKey="photo";
@@ -206,7 +201,6 @@
                     params.team_id = $("#currentteamid").val();
                     params.auth_code = $("#currentcode").val();
                     params.device_id = device.uuid;
-                    alert("device id: "+device.uuid);
                     options.params = params;
                     var theheaders={'Authorization':"Basic " + "username" + ":" + "password"};
                     options.headers = theheaders;
