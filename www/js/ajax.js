@@ -1,6 +1,7 @@
 /**
  * Created by nono on 9/3/15.
  */
+
 function sendAjax(type) {
     var termsOk = true;
     if(type ==1 && $("#termsaccept").prop('checked')==false){
