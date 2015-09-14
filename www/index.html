@@ -211,7 +211,6 @@
                     function successPhotoFileTransfer(data){
                         hideLoading();
                         var responseStr = data.response;
-                        alert("this is response str: "+responseStr);
                         var responseJson  = JSON.parse(responseStr);
                         if(responseJson.success == true){
                             sweetAlert("Your photo was uploaded successfully.");
