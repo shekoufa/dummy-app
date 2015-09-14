@@ -26,8 +26,8 @@ function sendAjax(type) {
     //	article.tags = $('#tags').val().split(";");
 
         $.ajax({
-//            url: "http://app.heyorca.com:8080/app/login",
-            url: "https://app.heyorca.com/app/login",
+            url: "http://app.heyorca.com:8080/app/login",
+//            url: "http://app.heyorca.com:/app/login",
             type: 'POST',
             dataType: 'json',
             data: dataFeed,
