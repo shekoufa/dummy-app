@@ -27,7 +27,7 @@ function sendAjax(type) {
 
         $.ajax({
 //            url: "http://app.heyorca.com:8080/app/login",
-            url: "http://app.heyorca.com:8080/app/login",
+            url: "https://app.heyorca.com/app/login",
             type: 'POST',
             dataType: 'json',
             data: dataFeed,
@@ -49,6 +49,9 @@ function sendAjax(type) {
                 }else{
                     if(type==2){
                         updateAuthCode($("#currentcode").val(),data.data.device_authentication_code);
+                    }else{
+                        alert("This is data.device_auth_code: "+data.data.device_authentication_code)
+                        $("#currentcode").val(data.data.device_authentication_code);
                     }
                     $("#currentuserid").val(data.data.id);
 //                    $("#device_code").val(data.data.device_authentication_code);
