@@ -331,23 +331,19 @@
 
             }
             function switchMyTeam(){
+                $("#backbutton").hide();
+                $("#bs-example-navbar-collapse-1").removeClass("in");
                 if(getActivePage()=="app"){
                     $("#app").fadeOut("slow",function(){
-                        $("#bs-example-navbar-collapse-1").removeClass("in");
                         setActivePage("teams");
                         $("#teams").show();
                     });
                 }else if (getActivePage() == "preview"){
                     $("#preview").fadeOut("slow",function(){
-                        $("#bs-example-navbar-collapse-1").removeClass("in");
                         setActivePage("teams");
                         $("#teams").show();
                     });
-                }else if(getActivePage()=="teams"){
-                    $("#backbutton").hide();
-                    $("#bs-example-navbar-collapse-1").removeClass("in");
                 }
-
             }
             function outlink(){
                 //fixme: find a way to fix the problem with back button when click on outlinks!!
