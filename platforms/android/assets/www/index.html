@@ -75,8 +75,13 @@
                             <span class="icon-bar"></span>
                         </button>
                         <input style="display: none;" class="navbar-brand navbar-item" id="backbutton" ontouchstart="showAppPage();" type="image" src="img/back.png"/>
-                        <img style="display: none;" width="32" class="navbar-brand navbar-item" id="profilephoto"/>
-                        <a class="navbar-brand navbar-item" style="padding: 13px 5px !important;" href="#"><label id="fullname"></label></a>
+                        <div id="mainpagestuff"><div id="profilecontainer" style="display: inline;height:70px; margin: 5px 5px 0 1px; overflow: hidden;">
+                            <img style="display: none;width: 50px;" class="navbar-brand navbar-item" id="profilephoto"/>
+                        </div>
+                        <div id="namecontainer" style="display: inline; margin-left: 65px;">
+                            <a class="navbar-brand navbar-item" style="padding: 13px 5px !important;" href="#"><label id="fullname"></label></a>
+                        </div>
+                        </div>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
@@ -121,10 +126,19 @@
                 </div>
             </div>
         </div>
+        <script>
+            var SWIPE_THRESHOLD = 100, // default value
+            DBL_TAP_THRESHOLD = 200, // range of time in which a dbltap event could be detected,
+            LONG_TAP_THRESHOLD = 1000, // range of time after which a longtap event could be detected
+            TAP_THRESHOLD = 150, // range of time in which a tap event could be detected
+            TAP_PRECISION = 60 / 2, // default value (touch events boundaries)
+            JUST_ON_TOUCH_DEVICES = false; // default value ( decide whether you want to use the Tocca.js events only on the touch devices )
+        </script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
+        <script type="text/javascript" src="js/tocca.min.js"></script>
         <script type="text/javascript" src="js/sweetalert.js"></script>
         <script type="text/javascript" src="js/db.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

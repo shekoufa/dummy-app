@@ -232,7 +232,7 @@ h1 {
     background: rgba(0, 0, 0, 0) url("../img/logo-notext.png") no-repeat scroll center center;
 }
 #backbutton{
-    padding: 13px 10px 10px;
+    /*padding: 13px 5px 10px;*/
 }
 #loading{
     position: absolute;

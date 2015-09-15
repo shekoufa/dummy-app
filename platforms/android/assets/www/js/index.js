@@ -109,6 +109,11 @@ function showTeams(){
     $("#teams").fadeIn("slow");
 }
 function setActivePage(page){
+    if(page=="teams"){
+        $("#mainpagestuff").show();
+    }else{
+        $("#mainpagestuff").hide();
+    }
     $("#activepage").val(page);
 }
 function getActivePage(){
