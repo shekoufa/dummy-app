@@ -6,7 +6,7 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
-    <name>Upload</name>
+    <name>HeyOrca</name>
     <description>
         Uploads your media to your HeyOrca! library right away...
     </description>

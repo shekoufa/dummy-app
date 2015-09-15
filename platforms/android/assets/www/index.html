@@ -329,6 +329,9 @@
                         setActivePage("teams");
                         $("#teams").show();
                     });
+                }else if(getActivePage()=="teams"){
+                    $("#backbutton").hide();
+                    $("#bs-example-navbar-collapse-1").removeClass("in");
                 }
 
             }

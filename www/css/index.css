@@ -107,6 +107,7 @@ input[type=image]:focus{
         margin-top:15px;
     }
     #login img{
+        margin-top: 50px;
         width:100px;
     }
     #login-inputs{
